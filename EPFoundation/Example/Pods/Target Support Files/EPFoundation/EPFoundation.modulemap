@@ -1,0 +1,6 @@
+framework module EPFoundation {
+  umbrella header "EPFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
