@@ -24,4 +24,8 @@ public class BaseTableViewCell: UITableViewCell {
         return nil
     }
     
+    func method1() {
+        
+    }
+    
 }
