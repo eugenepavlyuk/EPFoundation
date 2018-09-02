@@ -20,8 +20,8 @@ open class BaseTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    class func cellIdentifier() -> String? {
-        return nil
+    open class func cellIdentifier() -> String {
+        return NSStringFromClass(self).components(separatedBy: ".").last! + "Identifier"
     }
     
     func method1() {
